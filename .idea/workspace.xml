@@ -31,7 +31,7 @@
       <file leaf-file-name="ava.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/ava.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="41" column="21" selection-start="404" selection-end="1793" vertical-scroll-proportion="-19.192308">
               <folding />
             </state>
           </provider>
@@ -40,17 +40,19 @@
       <file leaf-file-name="gislin.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/gislin.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="78" selection-start="962" selection-end="962" vertical-scroll-proportion="-0.65384614">
+            <state line="25" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donate.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="donate.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/summer/donate.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="60" selection-start="2589" selection-end="2589" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="47" column="9" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.9346154">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,16 +60,16 @@
       <file leaf-file-name="fundraising.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/fundraising.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="27" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/summer/index.html.erb">
+      <file leaf-file-name="summer_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/summer_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="36" selection-start="8787" selection-end="8787" vertical-scroll-proportion="1.9474747">
+            <state line="5" column="6" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,7 +78,7 @@
       <file leaf-file-name="introduction.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/introduction.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="27" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
               <folding />
             </state>
           </provider>
@@ -85,7 +87,7 @@
       <file leaf-file-name="jeff.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/jeff.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="26" column="39" selection-start="995" selection-end="995" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
@@ -94,16 +96,16 @@
       <file leaf-file-name="video.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/summer/video.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="6" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.0">
+            <state line="25" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-14.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/summer/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="29" column="20" selection-start="1073" selection-end="1103" vertical-scroll-proportion="-14.038462">
               <folding />
             </state>
           </provider>
@@ -126,15 +128,15 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/summer.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/summer.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/summer_custom.js" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/summer/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/summer/ava.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/summer/gislin.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/summer/donate.html.erb" />
         <option value="$PROJECT_DIR$/app/views/summer/fundraising.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/summer/gislin.html.erb" />
         <option value="$PROJECT_DIR$/app/views/summer/introduction.html.erb" />
         <option value="$PROJECT_DIR$/app/views/summer/jeff.html.erb" />
         <option value="$PROJECT_DIR$/app/views/summer/video.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/summer/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/summer/donate.html.erb" />
       </list>
     </option>
   </component>
@@ -270,6 +272,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medi_on_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medi_on_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
@@ -361,6 +381,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -533,11 +560,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/summer.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="592" column="13" selection-start="9274" selection-end="9274" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/summer.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
@@ -574,66 +596,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/ava.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/summer_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/fundraising.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/introduction.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/donate.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="60" selection-start="2589" selection-end="2589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/jeff.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/video.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="6" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/summer/gislin.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="78" selection-start="962" selection-end="962" vertical-scroll-proportion="-0.65384614">
+        <state line="5" column="6" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.1824687">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/gislin.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/summer/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="36" selection-start="8787" selection-end="8787" vertical-scroll-proportion="1.9474747">
+        <state line="29" column="20" selection-start="1073" selection-end="1103" vertical-scroll-proportion="-14.038462">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/introduction.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/jeff.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="995" selection-end="995" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/video.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-14.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/ava.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="21" selection-start="404" selection-end="1793" vertical-scroll-proportion="-19.192308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/fundraising.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="996" selection-end="996" vertical-scroll-proportion="-8.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/summer/donate.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="9" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.9346154">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
