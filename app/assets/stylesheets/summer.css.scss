@@ -1,0 +1,608 @@
+// Place all the styles related to the Summer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/*
+Author:Jialiang Gu @ ECE, CMU
+Email: jgu1@andrew.cmu.edu
+Edit time: July - August 2012
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/*the editable area sits in the middle 80% of the screen*/
+#editableBelt{
+  /*set the div in the horizental center of the screen*/
+  background:rgb(255,255,255);
+
+  position:absolute;
+  left:10%;
+  right:10%;
+  width:80%;
+  height:auto;
+  border: #999 1px solid;
+
+}
+
+/*the header containing the image of wilmer center*/
+div.header{
+  width:100%;
+  height:140px;
+}
+div.headerTxt{
+  position:relative;
+  top:80px;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:24px;
+}
+/*for the navigator bar*/
+div.navigator{
+  width:100%;
+  height:35px;
+  margin-bottom:10px;
+  border-bottom: #999 1px solid;
+}
+#nav
+  {	margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f2f2f2;
+}
+
+#nav li
+  {	float: left;
+  list-style: none;
+}
+
+#nav li a
+  {
+  display: block;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:14px;
+  padding-bottom:14px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #069;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size:13px;
+}
+
+#nav li a:hover
+  {
+  background-color: #fff;
+}
+
+#nav li ul
+  {
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  visibility: hidden;
+  border-top: 1px solid white
+
+}
+
+#nav li ul li
+  {	float: left;
+  list-style: none;
+  background-color: #f2f2f2;
+}
+
+#nav li ul li a
+  {
+  display: block;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:5px;
+  padding-left:5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #069;
+  border: 1px solid #ccc;
+}
+
+#nav li ul li a:hover
+  {
+  background-color: #fff;
+}
+#spaceForSubmenue
+  {
+  display:none;
+  width:100%;
+  height:30px;
+}
+/*for the navigator bar*/
+
+/*the main body is divided into left and right part*/
+#leftFrame{
+  margin-right:1%;
+  float:left;
+  height:730px;
+  width:73%;
+  border-right: #999 1px solid;
+}
+
+#rightFrame{
+  margin-right:1%;
+  float:right;
+  height:730px;
+  width:24%;
+}
+/*upperleft: the left part is shared by two parts, the upper part will contain the introduction and patient testimonial*/
+#introAndTestimonial{
+  margin-top:15px;
+  margin-left:10px;
+  margin-bottom:10px;
+  width:97%;
+  height:370px;
+  background:#EEEEEE;
+}
+/*lowerleft: the lower part will contain the experts*/
+div.experts{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:10px;
+  width:100%;
+  height:340px;
+  border-top: #999 1px solid;	;
+}
+
+div.eachExpert{
+  float:left;
+  margin-bottom:13px;
+  width:32%;
+  margin-right:1%;
+  height:310px;
+  background:url(protoImages/blockBG.jpg);
+}
+#expertAva{
+  padding-left:10px;
+  margin-left:10px;
+  float:left;
+  margin-bottom:10px;
+  width:30%;
+  margin-right:1%;
+  height:310px;
+  background:url(protoImages/greyAvaBoxBG.jpg);
+}
+#expertGislin{
+  padding-left:10px;
+
+  float:left;
+  margin-bottom:10px;
+  width:30%;
+  margin-right:1%;
+  height:310px;
+  background:url(protoImages/greyGislinBoxBG.jpg);
+}
+#expertJeff{
+  padding-left:10px;
+  float:left;
+  margin-bottom:10px;
+  width:31%;
+  margin-right:1%;
+  height:310px;
+  background:url(protoImages/greyJeffBoxBG.jpg);
+}
+/*upperright: the upper right part will contain the thermometer*/
+#therm{
+  background:#EEEEEE;
+  margin-top:15px;
+  margin-bottom:10px;
+  width:100%;
+  height:370px;
+}
+/*lowerright: the lower right part will contain the donor list*/
+div.donors{
+  margin-top:10px;
+  margin-bottom:10px;
+  height:330px;
+  width:98%;
+  border-top: #999 1px solid;
+
+}
+#donorSContainter{
+  margin-top:5px;
+  margin-bottom:10px;
+  width:100%;
+  height:320px;
+  background:#EEEEEE;
+}
+div.donorTitle{
+  margin-top:10px;
+  height:110px;
+  color:#0033FF;
+}
+
+
+/*this part is the scroll door*/
+#scrollDoor{
+  width:100%;
+}
+
+#con{
+  width:100%;
+}
+
+#tags{
+  position:relative;
+  top:10px;
+  width:100%;
+  height:20px;
+  padding:0;
+}
+
+#tags li{
+  width:19%;
+  float:left;
+  list-style-type:none;
+  height:20px;
+  border:#999 1px solid;
+}
+#tags li a{
+  padding-right:10px;
+  padding-left:10px;
+  float:left;
+  text-decoration:none;
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+}
+#tags li.selectTag{
+  padding:0;
+  float:left;
+  list-style-type:none;
+  height:20px;
+  background:#3399FF;
+}
+#tags li.selectTag a{
+  line-height:20px;
+  height:20px;
+}
+
+#tagContent{
+  padding:0;
+}
+.tagContent{
+  display:none;
+  height:310px;
+  font:Georgia, "Times New Roman", Times, serif bond;
+  color:#000000;
+  font-size:21px;
+  line-height:26px;
+  list-style:none;
+  font-weight:bold;
+
+}
+
+#tagContent div.selectTag{
+  display:block;
+}
+/*this part is the scroll door*/
+
+
+
+
+
+
+
+
+/*this part is for fundraising thermometer*/
+#thermometer_wrapper{
+  /*float:right;*/
+  width:100%;
+  height:300px;
+  padding-right:40px;
+}
+
+#thermometer_percentage table tr td{
+  font-size:18px;
+  line-height:18px;
+  color:#069;
+  font-family:Georgia, "Times New Roman", Times, serif;
+}
+#thermDemo{
+  width:125px;
+  height:160px;
+  background:url(protoImages/greyThermLegend.jpg) no-repeat;
+}
+
+#thermometer{
+  width:64px;
+  height:323px;
+  background:url(protoImages/greyThermometer.jpg) no-repeat;
+  overflow:hidden;
+}
+#mercury{
+  background-color:#3399FF;
+  width:25px;
+  position:relative;
+  left:16px;
+}
+div.snippet{
+  position:relative;
+  width:25px;
+  left:16px;
+  height:32px;/*32 * 8 = 256 is the height of whole mercury*/
+}
+#fundDetail{
+  float:right;
+  width:60%;
+  height:100%;
+  font-weight:bold;
+}
+
+
+
+div.snippetzi{
+  position:relative;
+  width:25px;
+  left:16px;
+  height:36px;/*36 * 7 = 252 is the height of whole mercury*/
+  top:0px;
+}
+
+
+/*this part is for fundraising thermometer*/
+
+
+
+
+/*this is the expert boxes*/
+#boxes_content{
+  width:100%;
+  clear:both;
+  margin:auto;
+}
+.box{
+  padding:10px 10px 10px 16px;float:left;}
+.box_content{
+  background:url(images/box_bg.gif) no-repeat center;width:30%;height:202px;
+}
+
+
+
+p.text_content{
+  width:15%;
+  float:left;
+  text-align:left;
+  padding:5px 10px 0 15px;
+  color:#fff;
+  line-height:15px;
+}
+a.read_more{
+  padding:10px 0 0 0;
+}
+/*this is the expert boxes*/
+
+.boxtitle{
+  height:15px;
+  width:100%;
+  padding:10px 0 0 15px;
+  color:#0033FF;
+}
+
+.boxIconPosition{
+  height:110px;
+
+}
+.boxIcon{
+  float:left;
+  width:50%;
+  height:110px;
+
+}
+.boxPosition{
+  float:right;
+  width:50%;
+  height:110px;
+  font-weight:bold;
+
+}
+.boxDescription{
+  width:100%;
+  height:160px;
+}
+/*this is the end of boxes*/
+
+/*this part is for child pages*/
+
+div.Profile{
+  width:100%;
+  height:400px;
+}
+
+#plaine p{
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+  font-weight:100;
+  line-height:25px;
+
+}
+#plaine{
+  margin:10px 10px 10px 10px;
+  background:#EEEEEE;
+}
+
+div.plaine p:first-letter{
+  font-size:80px;
+  font-weight:200;
+}
+div.backbuttono{
+  height:50px;
+  float:right;
+
+}
+
+div.blockTitle{
+  height:40px;
+  width:100%;
+  font:Arial, Helvetica, sans-serif;
+  font-size:36px;
+  color:40px;
+}
+#thermometerSampleBox{
+  width:120px;
+  display:block;
+  position:relative;
+  top:-200px;
+  left:100px;
+}
+
+/*this part is for donate page*/
+div.donateBox{
+  height: 200px;
+  width:100%;
+  border:#999 1px solid;
+}
+div.donateBoxGrid{
+  float:left;
+  margin-bottom:10px;
+  width:40%;
+  margin-right:1%;
+  height:195px;
+  font:Georgia, "Times New Roman", Times, serif bond;
+  color:#000000;
+  font-size:18px;
+  line-height:26px;
+  font-weight:bold;
+}
+div.donateBoxImgGrid{
+  float:left;
+  margin-bottom:10px;
+  width:120px;
+  margin-right:1%;
+  height:175px;
+  font:Georgia, "Times New Roman", Times, serif bond;
+  color:#000000;
+  font-size:18px;
+  line-height:26px;
+  font-weight:bold;
+}
+
+div.donateTitle{
+  padding-top:15px;
+width:100%;
+  height:70px;
+  border-bottom: #999 1px solid;
+  font-size:30px;
+  color:#0033FF;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+div.donatePara{
+  width:100%;
+  height:170px;
+  border-bottom: #999 1px solid;
+  font:Georgia, "Times New Roman", Times, serif bond;
+  color:#000000;
+  font-size:21px;
+  line-height:26px;
+  font-weight:bold;
+}
+div.donateOption{
+
+  float:left;
+  margin-bottom:10px;
+  width:32%;
+  margin-right:1%;
+  height:350px;
+  font:Georgia, "Times New Roman", Times, serif bond;
+  color:#000000;
+  font-size:18px;
+  line-height:26px;
+  font-weight:bold;
+  border-left: #999 1px solid;
+}
+div.addrBox{
+  margin-top:10px;
+  width:100%;
+  margin-left:10px;
+  border:#003366 3px solid;
+
+}
+
+#thermometer_percentage{
+  height:50px;
+}
+
+/*this part is for the h2 and p*/
+h3{
+  color:#069;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:21px;
+  display:inline;
+}
+
+p{
+
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:30px;
+  font-weight:100;
+}
+
+/*this part is for the h2 and p*/
+span{
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:20px;
+  font-weight:100;
+}
+
+div.clear{
+  clear:both;
+}
+
+a:visited{
+  color:#069;
+
+}
+a.gold{
+  color:#FF9900;
+
+}
+p.boldPara{
+  color:#000000;
+
+  font-size:21px;
+  line-height:23px;
+  list-style:none;
+  font-weight:bold;
+}
+div.footerTxt{
+  float:left;
+  width:100%;
+  height:100%;
+  background:#EEEEEE;
+  padding:0;
+  margin:0;
+}
+
+div.footerWrap{
+  width:100%;
+  height:100%;
+  padding:10px;
+  border-top:#999 1px solid;
+}
+
+#bottomBlock{
+  padding: 10px 10px 10px 10px;
+  width:95%;
+  height:75px;
+}
+
+a img
+  {
+  border:none;
+}

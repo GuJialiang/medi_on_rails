@@ -1,4 +1,20 @@
 MediOnRails::Application.routes.draw do
+  get "summer/ava"
+
+  get "summer/donate"
+
+  get "summer/fundraising"
+
+  get "summer/gislin"
+
+  get "summer/index"
+
+  get "summer/introduction"
+
+  get "summer/jeff"
+
+  get "summer/video"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
