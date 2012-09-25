@@ -1,0 +1,42 @@
+<div id="editableBelt" style="height:auto">
+  <div id="header" align="center">
+    <img src="/jeffHeader.jpg" width="100%">
+  </div>
+
+  <div class="navigator">
+    <script type="text/javascript">
+        $(document).ready(function()
+        {	$('#nav > li').bind('mouseover', nav_open);
+            $('#nav > li').bind('mouseout',  nav_timer);});
+
+        document.onclick = nav_close;
+    </script>
+    <ul id="nav">
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="video.html">Video Interview</a></li>
+      <li><a href="introduction.html">Study Introduction</a></li>
+      <li><a href="fundraising.html">Importance of Fundraising</a></li>
+      <li><a href="donate.html">Donate Now</a></li>
+      <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
+        <ul>
+          <li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>
+          <li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>
+          <li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>
+        </ul>
+
+      </li>
+      <li onClick="turnColor('white')"><a href="#">White Background</a></li>
+      <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
+
+
+    </ul>
+  </div>
+
+  <div id="spaceForSubmenue"></div>
+
+  <div id="plaine">
+    <p >
+      Mr. Gould is a graduate of the Oregon College of Oriental Medicine and has a Master of Education from the University of Maryland College Park in Counseling and Personnel Services. He is nationally board certified in both acupuncture and Chinese herbology. He served as clinic supervisor for Tai Sophia Institute&acute;s Chinese Herb Program, and was the consulting editor for Wanzhu Hou&acute;s Treating Autoimmune Disease with Chinese Medicine, 2011, published by Elsevier.  Mr. Gould provided acupuncture for the study &quot;A Multi-Center Randomized Controlled Double Blind Trial Assessing the Effect of Acupuncture in Reducing Musculoskeletal Symptoms in Breast Cancer Patients Taking Aromatase Inhibitors,&quot; which was conducted at Johns Hopkins. Mr. Gould is currently working on &quot;Acupuncture in the Treatment of Idiopathic Gastroparesis: A Random, Single-Blind Pilot Study,&quot; also at Johns Hopkins.
+    </p>
+  </div>
+</div>

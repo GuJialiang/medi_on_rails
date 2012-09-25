@@ -1,0 +1,61 @@
+<div id="editableBelt" style="height:auto">
+  <div id="header" align="center">
+
+    <img src="/avaHeader.jpg" width="100%"/>
+  </div>
+  <div class="navigator">
+    <script type="text/javascript">
+        $(document).ready(function()
+        {	$('#nav > li').bind('mouseover', nav_open);
+            $('#nav > li').bind('mouseout',  nav_timer);});
+
+        document.onclick = nav_close;
+    </script>
+    <ul id="nav">
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="video.html">Video Interview</a></li>
+      <li><a href="introduction.html">Study Introduction</a></li>
+      <li><a href="fundraising.html">Importance of Fundraising</a></li>
+      <li><a href="donate.html">Donate Now</a></li>
+      <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
+        <ul>
+          <li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>
+          <li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>
+          <li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>
+        </ul>
+
+      </li>
+      <li onClick="turnColor('white')"><a href="#">White Background</a></li>
+      <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
+
+
+
+    </ul>
+  </div>
+
+  <div id="spaceForSubmenue"></div>
+  <div id="plaine">
+    <p>
+      Dr. Ava Katherine Bittner is a licensed
+      Optometrist who received her Ph.D. in clinical investigation from the Johns
+      Hopkins School of Public Health. She completed a clinical research postdoctoral
+      fellowship at the Johns Hopkins Wilmer Eye Institute, and then
+      joined the faculty as an Assistant Professor. Dr. Bittner is a recipient of the
+      prestigious Ezell fellowship award from the American Academy of Optometry.
+      She was also inducted into the Phi Beta Kappa national academic
+      honor society for excellence in her Ph.D. thesis work, which examined the
+      relationships between psychosocial factors (stress, anxiety, mood, depression)
+      and day-to-day variations in vision among visually impaired patients with
+      retinis pigmentosa.
+      Dr. Bittner aims to extend this research to patients with glaucoma, and
+      to design and conduct clinical trials involving interventions for these
+      patients in the future. Her research interests also include complementary
+      and alternative approaches to sight preservation and disease/symptom
+      attenuation in patients with retinal degenerations, using techniques
+      such as yoga, acupuncture or mindfulness-based stress reduction. Dr.
+      Bittner collaborates with researchers from the Johns Hopkins Center
+      for Mind-Body Research and Department of Behavioral Science on this
+      multidisciplinary work.
+    </p>
+  </div>
+</div>

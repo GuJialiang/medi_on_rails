@@ -1,0 +1,54 @@
+<div id="editableBelt" style="height:auto">
+  <div id="header" align="center">
+    <img src="/gislinHeader.jpg" width="100%">
+  </div>
+  <div class="navigator">
+    <script type="text/javascript">
+        $(document).ready(function()
+        {	$('#nav > li').bind('mouseover', nav_open);
+            $('#nav > li').bind('mouseout',  nav_timer);});
+
+        document.onclick = nav_close;
+    </script>
+    <ul id="nav">
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="video.html">Video Interview</a></li>
+      <li><a href="introduction.html">Study Introduction</a></li>
+      <li><a href="fundraising.html">Importance of Fundraising</a></li>
+      <li><a href="donate.html">Donate Now</a></li>
+      <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
+        <ul>
+          <li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>
+          <li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>
+          <li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>
+        </ul>
+
+      </li>
+      <li onClick="turnColor('white')"><a href="#">White Background</a></li>
+      <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
+
+
+    </ul>
+  </div>
+
+  <div id="spaceForSubmenue"></div>
+  <div id="plaine">
+    <p >
+      Gislin Dagnelie, Ph.D., is an Associate Professor of Ophthalmology in
+      the Johns Hopkins University School of Medicine and the associate director of the Lions Vision
+      Research and Rehabilitation Center, a division of the Wilmer Eye Institute. His work over the
+      last 20 years has been supported by grants from the National Eye Institute, National Center for
+      Complementary and Alternative Medicine, National Science Foundation, Foundation Fighting
+      Blindness, and several companies developing ophthalmic devices and/or visual prosthetics. In
+      addition to his role as the Center Principal Investigator for the Optobionics (2004-2007)
+      and Second Sight Argus 2 (2007-present) clinical trials, Dr. Dagnelie is leading an NEI-sponsored effort
+      to convert standard personal computers into precise tools for visual function measurement
+      through development of an affordable calibration device.
+      Dr. Dagnelie is a native of the Netherlands, where he grew up in Rotterdam. He received a master&acute;s degree in experimental physics at the University
+      of Groningen, and a Ph.D. in medical physics at the University of Amsterdam. In 1986, Dr.
+      Dagnelie became a postdoctoral fellow in the department of ophthalmology at Johns Hopkins,
+      and remains a member of the research staff at this center to this day.
+    </p>
+
+  </div>
+</div>

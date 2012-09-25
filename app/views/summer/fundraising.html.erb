@@ -1,0 +1,42 @@
+<div id="editableBelt" style="height:auto">
+  <div id="header" align="center">
+
+    <img src="/redHeader.jpg" width="100%"/>
+  </div>
+
+  <div class="navigator">
+    <script type="text/javascript">
+        $(document).ready(function()
+        {	$('#nav > li').bind('mouseover', nav_open);
+            $('#nav > li').bind('mouseout',  nav_timer);});
+
+        document.onclick = nav_close;
+    </script>
+    <ul id="nav">
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="video.html">Video Interview</a></li>
+      <li><a href="introduction.html">Study Introduction</a></li>
+      <li><a href="fundraising.html">Importance of Fundraising</a></li>
+      <li><a href="donate.html">Donate Now </a></li>
+      <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
+        <ul>
+          <li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>
+          <li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>
+          <li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>
+        </ul>
+
+      </li>
+      <li onClick="turnColor('white')"><a href="#">White Background</a></li>
+      <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
+
+
+    </ul>
+  </div>
+
+  <div id="spaceForSubmenue"></div>
+  <div id="plaine">
+    <p>Patients come to the Wilmer Eye Institute from all over the nation and the world to receive the finest ophthalmic care. What many may not realize is that world-class patient care is only one third of our mission. The other integral parts of Wilmer are innovative research and teaching the next generation. Without all three components, Wilmer would not be the model eye institute many consider it to be. Every day at Wilmer, a teacher&acute;s observation inspires a student&acute;s efforts in the laboratory. A scientist&acute;s discovery culminates in a promising new therapy. A physician struggling to help a patient with a seemingly untreatable condition experiences an insight that leads to new research. This is academic medicine at its best-a creative, synergistic juxtaposition of clinic and operating room, classroom and laboratory. Faculty members must raise enough funds, whether from grants or private philanthropy, to pay for their own salary and that of their staff, as well as costs of special equipment and supplies needed for research. It is therefore critical that we raise $100,000 per year from private donors and foundations to fund acupuncture research for RP that will substantiate our study and enable us to apply for government funding that will then take our research to the next level.
+    </p>
+  </div>
+
+</div>
