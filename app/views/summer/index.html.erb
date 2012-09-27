@@ -1,4 +1,4 @@
-<div id="editableBelt">
+<div id="editableBelt" onLoad="changePageType('index')">
 <div id="header" align="center">
   <!-- <div class="headerTxt">Acupuncture for the Treatment of Vision Loss Due to Retinitis Pigmentosa
   </div>
@@ -6,47 +6,8 @@
   <img src="/redHeader.jpg" width="100%" style="display:block"/>
 </div>
 
-<div class="navigator" align="center">
-  <script type="text/javascript">
-      $(document).ready(function()
-      {	$('#nav > li').bind('mouseover', nav_open);
-          $('#nav > li').bind('mouseout',  nav_timer);});
-
-      document.onclick = nav_close;
-  </script>
   <ul id="nav">
-    <li><%= link_to "Home Page", index_path %></li>
-    <!--<li><a href="index.html">Home Page</a></li>-->
-
-    <li><%= link_to "Video Interview", video_path %></li>
-    <!--<li><a href="video.html">Video Interview</a></li>-->
-
-    <li><%= link_to "Study Introduction", introduction_path %></li>
-    <!--<li><a href="introduction.html">Study Introduction</a></li>  -->
-
-    <li><%= link_to "Importance of Fundraising", fundraising_path %></li>
-    <!--<li><a href="fundraising.html">Importance of Fundraising</a></li>-->
-
-    <li><%= link_to "Danate Now", don_path %></li>
-    <!--<li><a href="donate.html">Donate Now</a></li>-->
-    <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
-      <ul>
-        <li><%= link_to "Dr. Bittner", ava_path %></li>
-        <!--<li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>-->
-        <li><%= link_to "Dr. Dagnelie", gislin_path %></li>
-        <!--<li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>-->
-        <li><%= link_to "Jeff Gould", jeff_path %></li>
-        <!--<li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>-->
-      </ul>
-
-    </li>
-    <li onClick="turnColor('white')"><a href="#">White Background</a></li>
-    <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
   </ul>
-</div>
-
-<div id="spaceForSubmenue"></div>
-
 
 <div id="leftFrame">
   <!--
@@ -60,7 +21,7 @@
         <div id="tagContent">
 
           <div class ="tagContent selectTag" id="tagContent0"><li>
-            <a href="video.html"> <img src="/videoDemo.jpg" width="765" style="display:block"/></a>
+            <a href="video.html"> <img src="/videoDemo.jpg" width="765" height="300" style="display:block"/></a>
 
             </object>
           </li></div>

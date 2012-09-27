@@ -1,29 +1,14 @@
 MediOnRails::Application.routes.draw do
-  match '/ava',          to:'summer#ava'
-  #get "summer/ava"
-
-  #match '/donate',       to:'summer#donate'
-  get "summer/donate"
-  match '/don',       to:'summer#donate'
-
-  match '/fundraising',  to:'summer#fundraising'
-  #get "summer/fundraising"
-
-  match '/gislin',       to:'summer#gislin'
- # get "summer/gislin"
-
   root      to:'summer#index'
+  match '/ava',          to:'summer#ava'
+  match '/don',          to:'summer#donate'
+  match '/fundraising',  to:'summer#fundraising'
+  match '/gislin',       to:'summer#gislin'
   match '/index',        to:'summer#index'
-  #get "summer/index"
-
   match '/introduction', to:'summer#introduction'
-  #get "summer/introduction"
-
   match '/jeff',         to:'summer#jeff'
-  #get "summer/jeff"
-
   match '/video',        to:'summer#video'
-  #get "summer/video"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -4,46 +4,8 @@
     <img src="/redHeader.jpg" width="100%"/>
   </div>
 
-  <div class="navigator">
-    <script type="text/javascript">
-        $(document).ready(function()
-        {	$('#nav > li').bind('mouseover', nav_open);
-            $('#nav > li').bind('mouseout',  nav_timer);});
-
-        document.onclick = nav_close;
-    </script>
-    <ul id="nav">
-      <li><%= link_to "Home Page", index_path %></li>
-      <!--<li><a href="index.html">Home Page</a></li>-->
-
-      <li><%= link_to "Video Interview", video_path %></li>
-      <!--<li><a href="video.html">Video Interview</a></li>-->
-
-      <li><%= link_to "Study Introduction", introduction_path %></li>
-      <!--<li><a href="introduction.html">Study Introduction</a></li>  -->
-
-      <li><%= link_to "Importance of Fundraising", fundraising_path %></li>
-      <!--<li><a href="fundraising.html">Importance of Fundraising</a></li>-->
-
-      <li><%= link_to "Danate Now", don_path %></li>
-      <!--<li><a href="donate.html">Donate Now</a></li>-->
-      <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
-        <ul>
-          <li><%= link_to "Dr. Bittner", ava_path %></li>
-          <!--<li onMouseMove="moreSpace()"><a href="ava.html" >Dr. Bittner</a></li>-->
-          <li><%= link_to "Dr. Dagnelie", gislin_path %></li>
-          <!--<li onMouseMove="moreSpace()"><a href="gislin.html"  >Dr. Dagnelie</a></li>-->
-          <li><%= link_to "Jeff Gould", jeff_path %></li>
-          <!--<li onMouseMove="moreSpace()"><a href="jeff.html" >Jeff Gould</a></li>-->
-        </ul>
-
-      </li>
-      <li onClick="turnColor('white')"><a href="#">White Background</a></li>
-      <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
-    </ul>
-  </div>
-
-  <div id="spaceForSubmenue"></div>
+  <ul id="nav">
+  </ul>
   <div id="plaine">
     <p>In 2006-07, Drs. Bittner and Dagnelie conducted a survey of alternative therapies used by people with RP, and found that the majority of those who had tried acupuncture reported an effect on vision. However, there are currently no publications of rigorously conducted placebo controlled studies to test acupuncture for its potential to improve vision in RP. Recently, Drs. Bittner and Dagnelie were introduced to an acupuncturist and naturopathic physician, Dr. Andy Rosenfarb, by an RP patient from Maryland who felt that her vision was improved after receiving acupuncture from Dr. Rosenfarb.  Based on his experience treating nearly 200 RP patients, he developed a standard protocol involving 2-weeks of electroacupuncture that is currently being tested in 12 people with RP as part of a pilot study at Johns Hopkins University. We hope to advance management options for RP, which are currently limited to nutritional supplements attempting to slow disease progression. After being diagnosed with a disabling, chronic disease, such as RP, there is nothing more disheartening than for the patient to hear that nothing can be done to treat it. The goal of our research is to provide a basis for recommendations to RP patients regarding safety and potential for vision changes, by identifying the proportion of patients who respond to the treatment, types of vision improvements, as well as the duration and magnitude of the effects.
     </p>

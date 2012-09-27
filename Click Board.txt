@@ -1,0 +1,19 @@
+
+//the original navigation bar
+
+<ul id="nav">
+    <li><%= link_to "Home Page", index_path %></li>
+    <li><%= link_to "Video Interview", video_path %></li>
+    <li><%= link_to "Study Introduction", introduction_path %></li>
+    <li><%= link_to "Importance of Fundraising", fundraising_path %></li>
+    <li><%= link_to "Danate Now", don_path %></li>
+    <li onMouseMove="moreSpace()"><a href="#" >Our Team &nbsp;&darr;</a>
+      <ul>
+        <li><%= link_to "Dr. Bittner", ava_path %></li>
+        <li><%= link_to "Dr. Dagnelie", gislin_path %></li>
+        <li><%= link_to "Jeff Gould", jeff_path %></li>
+      </ul>
+    </li>
+    <li onClick="turnColor('white')"><a href="#">White Background</a></li>
+    <li onClick="turnColor('black')"><a href="#">Black Background</a></li>
+  </ul>
