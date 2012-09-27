@@ -1,4 +1,9 @@
 MediOnRails::Application.routes.draw do
+  get "users/new"
+
+  resources :users
+
+
   root      to:'summer#index'
   match '/ava',          to:'summer#ava'
   match '/don',          to:'summer#donate'
@@ -9,6 +14,7 @@ MediOnRails::Application.routes.draw do
   match '/jeff',         to:'summer#jeff'
   match '/video',        to:'summer#video'
 
+  match '/signup',       to:'users#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
