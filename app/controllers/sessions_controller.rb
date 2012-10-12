@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   def new
-    @text = 'new your sister'
+
   end
 
   def create
@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       sign_in user
 
       #@ControllerText = 'from session controller'
-      redirect_to user
+      redirect_back_or user
     else
       # Create an error message and re-render the signin form.
       flash.now[:error] = 'Invalid email/password combination' # Not quite right!
