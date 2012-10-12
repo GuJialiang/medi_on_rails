@@ -1,0 +1,28 @@
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav pull-left">
+        <li><%= link_to "Home Page", index_path %></li>
+        <li><%= link_to "Video Interview", video_path %></li>
+        <li><%= link_to "Study Introduction", introduction_path %></li>
+        <li><%= link_to "Importance of Fundraising", fundraising_path %></li>
+        <li><%= link_to "Danate Now", don_path %></li>
+        <li onClick="turnColor('white')"><a href="#">White </a></li>
+        <li onClick="turnColor('black')"><a href="#">Black </a></li>
+      </ul>
+
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Sign up", signup_path %></li>
+          <% if signed_in? %>
+
+              <li><%= link_to "Users", users_path %><%= link_to "Settings",edit_user_path(current_user) %></li>
+              <li><%= link_to "Sign out", signout_path, method: "delete" %>  </li>
+          <% else %>
+                <li><%= link_to "Sign in", signin_path %></li>
+          <% end%>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

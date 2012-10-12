@@ -1,19 +1,23 @@
 MediOnRails::Application.routes.draw do
-  get "summer/ava"
+  get "users/new"
 
-  get "summer/donate"
+  resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
-  get "summer/fundraising"
 
-  get "summer/gislin"
+  root                   to:'summer#index'
+  match '/ava',          to:'summer#ava'
+  match '/don',          to:'summer#donate'
+  match '/fundraising',  to:'summer#fundraising'
+  match '/gislin',       to:'summer#gislin'
+  match '/index',        to:'summer#index'
+  match '/introduction', to:'summer#introduction'
+  match '/jeff',         to:'summer#jeff'
+  match '/video',        to:'summer#video'
 
-  get "summer/index"
-
-  get "summer/introduction"
-
-  get "summer/jeff"
-
-  get "summer/video"
+  match '/signup',       to:'users#new'
+  match '/signin',       to: 'sessions#new'
+  match '/signout',      to: 'sessions#destroy', via: :delete
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
