@@ -2,9 +2,10 @@ MediOnRails::Application.routes.draw do
   get "users/new"
 
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
 
-  root      to:'summer#index'
+  root                   to:'summer#index'
   match '/ava',          to:'summer#ava'
   match '/don',          to:'summer#donate'
   match '/fundraising',  to:'summer#fundraising'
@@ -15,6 +16,8 @@ MediOnRails::Application.routes.draw do
   match '/video',        to:'summer#video'
 
   match '/signup',       to:'users#new'
+  match '/signin',       to: 'sessions#new'
+  match '/signout',      to: 'sessions#destroy', via: :delete
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
